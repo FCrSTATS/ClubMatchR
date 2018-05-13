@@ -3,6 +3,10 @@ Helps to match football club names from various data sources
 
 A helping hand to match datasets by helping match football clubs names that are often mismatched acrossed data sources. Currently limited to matching clubs between transfermarkt.com and clubelo.com.
 
+## Installation 
+
+devtools::install_github("FCrSTATS/ClubMatchR")
+
 ## Functions
 
 ### 1. {match_tm_to_elo}
