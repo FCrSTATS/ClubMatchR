@@ -13,9 +13,3 @@ tm_to_elo_rating <- function(tm_name, date){
   return(elo_lookup$Elo)
 }
 
-#' @export
-match_tm_to_elo <- function(tm_name){
-  load(file= "R/sysdata.rda") ## load data
-  matcher <- df %>% filter(Club == tm_name)
-  return(matcher$EloMatched[1])
-}
