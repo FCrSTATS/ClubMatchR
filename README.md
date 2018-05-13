@@ -10,7 +10,7 @@ Match a Transfmarkt club name with its clubElo equivalent. The function returns 
 
 *examples*
 
-x <- match_tm_with_elo("Celta de Vigo")
+x <- match_tm_to_elo("Celta de Vigo")
 
 print(x)
 
