@@ -1,0 +1,15 @@
+Package: ClubMatchR
+Type: Package
+Title: Helps to match football club names from various data sources
+Version: 0.1.0
+Authors@R: person("FC_", "RSTATS", email = "jmu@fcn.dk",
+                  role = c("aut", "cre"))
+Maintainer: FC_RSTATS <jmu@fcn.dk>
+Description: A helping hand to match datasets by helping match football clubs names that are often mismatched acrossed data sources. Currently limited to matching clubs between transfermarkt.com and clubelo.com.
+License: Open-Source
+Encoding: UTF-8
+LazyData: true
+Imports:
+        dplyr,
+        utils
+Suggests: testthat
